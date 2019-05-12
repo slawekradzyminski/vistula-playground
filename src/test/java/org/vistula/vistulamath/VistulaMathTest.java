@@ -18,7 +18,7 @@ public class VistulaMathTest {
     public void shouldThrowNewException() {
         VistulaMath.divide(10, 0);
     }
-
+//
     @Test
     public void shouldCorrectlyMultiply() {
         assert VistulaMath.multiply(5, 6) == 30;
